@@ -31,3 +31,5 @@ module.exports = (babel) => {
 - state：表示代码和插件的状态，一般通过该对象访问插件的配置项。
 
 - 节点的构造函数，校验方法，属性类型的等等。这些都定义在 babel-types 包中。具体是定义在 babel-types/src/definitions 目录下
+- 理解 Babel 插件，最重要的就是理解 path 对象，该对象表示节点之间的关系，我们通过 path 对象可以拿到任意的节点信息，插件通过修改 path 对象达到修改 AST 结构的目的。
+- babel-types 是 Babel 的一个模块，它提供了一组工具函数用于构造、验证和变换抽象语法树（AST）节点

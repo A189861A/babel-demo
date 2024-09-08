@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "./plugin/babel-plugin-var-plugin",
         "./plugin/babel-plugin-arrow-fn-plugin"
     ]
 }
