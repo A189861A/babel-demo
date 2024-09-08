@@ -1,0 +1,3 @@
+{
+    "plugins": ["./plugin/babel-plugin-var-plugin"]
+}
