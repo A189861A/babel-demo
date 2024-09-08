@@ -1,0 +1,17 @@
+{
+  "name": "bable16",
+  "version": "1.0.0",
+  "description": "https://www.jiangruitao.com/babel/",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "babel-tutorial"
+  ],
+  "author": "jruit",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.24.6"
+  }
+}
